@@ -286,7 +286,7 @@ a == c;		// true
 b == c;		// true
 a == b;		// false
 ```
-
+>Personal Note: a is coerced to a string, and == equality checks the values of both a and b
 **Note:** For more information about the `==` equality comparison rules, see the ES5 specification (section 11.9.3) and also consult Chapter 4 of the *Types & Grammar* title of this series; see Chapter 2 for more information about values versus references.
 
 #### Inequality
